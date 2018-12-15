@@ -1,0 +1,39 @@
+body{
+    background:linear-gradient(to right, #33A5FF, #C433FF);
+}
+h1, h4{
+    color:white;
+    font-family: 'Niramit', sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
+.padre{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left:30%;
+    
+}
+.resultado{
+    margin: 0px 0px 10px 40px ;
+    padding: 10px;
+    width: 400px;
+    height: 80px;
+    border:1px solid #339CFF;
+    font-size: 40px;
+}
+.hijo{
+    margin: auto;
+}		
+.botones{
+    width: 100px;
+    height: 90px;
+    font-size: 40px;
+    margin: 2px;
+    cursor: pointer;
+    
+}		
